@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	position: relative;
+	height: 300px;
+	width: 400px;
+	background: #293462;
+}
+
+.a {
+	height: 200px;
+	width: 200px;
+	background: #fff1c1;
+}
+
+.b {
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	bottom: 0;
+	background: #fe5f55;
+	border-right: 50px solid #a64942;
+}
+
+.c {
+	height: 150px;
+	width: 100px;
+	position: absolute;
+	left: 200px;
+	top: 0;
+	background: #fe5f55;
+	border-bottom: 50px solid #a64942;
+	z-index: 5;
+}
